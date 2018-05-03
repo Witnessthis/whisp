@@ -8,7 +8,7 @@
 const int WIDTH = 800;
 const int HEIGHT = 600;
 
-class HelloTriangleApplication {
+class Whisp {
 public:
 	void run() {
 		initWindow();
@@ -47,7 +47,7 @@ private:
 };
 
 int main() {
-	HelloTriangleApplication app;
+	Whisp app;
 
 	try {
 		app.run();
